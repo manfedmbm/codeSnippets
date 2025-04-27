@@ -1,0 +1,8 @@
+validate XML file against schema in linux console / gitbash
+    xmllint --schema yourxsd.xsd yourxml.xml --stream --noout
+
+validate XML file in linux console / gitbash
+    xmllint yourxml.xml --stream --noout
+
+generate XSD schema from XML file with "trang-20091111 - XML tool.zip"
+    java -jar trang.jar input.xml output.xsd
