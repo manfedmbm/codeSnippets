@@ -1,0 +1,3 @@
+scan and repair missing or broken system files
+    sfc /scannow
+
